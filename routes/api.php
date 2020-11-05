@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Auth\AuthController;
+use App\Http\Controllers\Contact\ContactController;
 
 /*
 |--------------------------------------------------------------------------
@@ -24,3 +25,6 @@ Route::group(['prefix' => 'auth'], function () {
         Route::get('me', [AuthController::class, 'me']);
     });
 });
+
+// Contact Router
+Route::post('send-contact', [ContactController::class, 'sendContact']);

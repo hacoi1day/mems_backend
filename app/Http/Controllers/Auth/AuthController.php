@@ -40,7 +40,7 @@ class AuthController extends Controller
     public function login()
     {
         $credentials = request(['email', 'password']);
-        if (! $token = auth()->attempt($credentials)) {
+        if (!$token = auth()->attempt($credentials)) {
             return response()->json(['error' => 'Unauthorized'], 401);
         }
         return $this->respondWithToken($token);
@@ -87,8 +87,10 @@ class AuthController extends Controller
      */
     protected function respondWithToken(string $token)
     {
+        $user = Auth::user();
         return response()->json([
             'access_token' => $token,
+            'user' => $user,
             'token_type' => 'bearer',
             'expires_in' => auth()->factory()->getTTL() * 60
         ]);
