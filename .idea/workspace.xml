@@ -20,9 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2fd67985-40d3-4180-ab69-f3f39c6c931c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/Helpers/helper.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Helpers/responseHelper.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/lang.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/AuthController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/AuthController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Exceptions/Handler.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Exceptions/Handler.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -177,12 +181,34 @@
       <workItem from="1604224605427" duration="6410000" />
       <workItem from="1604243776112" duration="1417000" />
       <workItem from="1604298731627" duration="87000" />
-      <workItem from="1604548127994" duration="969000" />
+      <workItem from="1604548127994" duration="3577000" />
+      <workItem from="1605499180775" duration="1950000" />
+      <workItem from="1605508276444" duration="618000" />
+      <workItem from="1605540339849" duration="2532000" />
+      <workItem from="1605598568946" duration="8588000" />
     </task>
+    <task id="LOCAL-00001" summary="contact service">
+      <created>1604550405764</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1604550405764</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -196,7 +222,23 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="contact service" />
+    <option name="LAST_COMMIT_MESSAGE" value="contact service" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="413" y="119" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1605626286028">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="119" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.728/1366.-316.1920.1040@0.0.1366.728" timestamp="1605626286028" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1604550409868">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1604550409868" />
+    <state x="339" y="162" key="run.anything.popup" timestamp="1605613670977">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728/1366.-316.1920.1040@0.0.1366.728" timestamp="1605613670977" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1604549040236">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

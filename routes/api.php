@@ -3,7 +3,8 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Auth\AuthController;
 use App\Http\Controllers\Contact\ContactController;
-
+use App\Http\Controllers\Category\CategoryResourceController;
+use App\Http\Controllers\Post\PostResourceController;
 /*
 |--------------------------------------------------------------------------
 | API Routes
@@ -26,5 +27,19 @@ Route::group(['prefix' => 'auth'], function () {
     });
 });
 
+Route::group(['middleware' => 'api'], function () {
+    // Category Resource
+    Route::group(['prefix' => 'category'], function () {
+        Route::resource('category', CategoryResourceController::class);
+    });
+
+    // Post Resource
+    Route::group(['prefix' => 'post'], function () {
+        Route::resource('post', PostResourceController::class);
+    });
+});
+
 // Contact Router
 Route::post('send-contact', [ContactController::class, 'sendContact']);
+
+
