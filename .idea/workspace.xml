@@ -20,14 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2fd67985-40d3-4180-ab69-f3f39c6c931c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Helpers/helper.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Helpers/responseHelper.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/lang.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Exceptions/Handler.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Exceptions/Handler.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -185,7 +179,9 @@
       <workItem from="1605499180775" duration="1950000" />
       <workItem from="1605508276444" duration="618000" />
       <workItem from="1605540339849" duration="2532000" />
-      <workItem from="1605598568946" duration="8588000" />
+      <workItem from="1605598568946" duration="10550000" />
+      <workItem from="1605881628653" duration="2226000" />
+      <workItem from="1605948005386" duration="341000" />
     </task>
     <task id="LOCAL-00001" summary="contact service">
       <created>1604550405764</created>
@@ -194,7 +190,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604550405764</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add category &amp; post resource">
+      <created>1605626896838</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1605626896838</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -224,16 +227,18 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="contact service" />
-    <option name="LAST_COMMIT_MESSAGE" value="contact service" />
+    <MESSAGE value="add category &amp; post resource" />
+    <option name="LAST_COMMIT_MESSAGE" value="add category &amp; post resource" />
   </component>
   <component name="WindowStateProjectService">
     <state x="413" y="119" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1605626286028">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="119" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.728/1366.-316.1920.1040@0.0.1366.728" timestamp="1605626286028" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1604550409868">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="1753" y="-177" key="Vcs.Push.Dialog.v2" timestamp="1605626903077">
+      <screen x="1366" y="-316" width="1920" height="1040" />
     </state>
+    <state x="1753" y="-177" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.-316.1920.1040@1366.-316.1920.1040" timestamp="1605626903077" />
     <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1604550409868" />
     <state x="339" y="162" key="run.anything.popup" timestamp="1605613670977">
       <screen x="0" y="0" width="1366" height="728" />
