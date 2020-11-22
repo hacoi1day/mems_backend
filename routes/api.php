@@ -5,6 +5,10 @@ use App\Http\Controllers\Auth\AuthController;
 use App\Http\Controllers\Contact\ContactController;
 use App\Http\Controllers\Category\CategoryResourceController;
 use App\Http\Controllers\Post\PostResourceController;
+
+use App\Http\Controllers\ACL\PermissionResourceController;
+use App\Http\Controllers\ACL\RoleResourceController;
+
 /*
 |--------------------------------------------------------------------------
 | API Routes
@@ -28,6 +32,13 @@ Route::group(['prefix' => 'auth'], function () {
 });
 
 Route::group(['middleware' => 'api'], function () {
+
+    Route::group(['prefix' => 'acl'], function () {
+        Route::resource('permission', PermissionResourceController::class);
+        Route::resource('role', RoleResourceController::class);
+    });
+
+
     // Category Resource
     Route::group(['prefix' => 'category'], function () {
         Route::resource('category', CategoryResourceController::class);
@@ -37,6 +48,8 @@ Route::group(['middleware' => 'api'], function () {
     Route::group(['prefix' => 'post'], function () {
         Route::resource('post', PostResourceController::class);
     });
+
+
 });
 
 // Contact Router
